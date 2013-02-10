@@ -1,10 +1,6 @@
 <?php
 /*
-Script Name: Full Featured PHP Browser/OS detection
-Author: Harald Hope, Website: http://techpatterns.com/
-Script Source URI: http://techpatterns.com/downloads/php_browser_detection.php
-Version 5.3.16
-Copyright (C) May 2 2011
+Removing copyright for git test 
 
 Special thanks to alanjstr for cleaning up the code, especially on function get_item_version(),
 which he improved greatly. Also to Tapio Markula, for his initial inspiration of creating a 
