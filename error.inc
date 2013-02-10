@@ -1,7 +1,6 @@
 <?php
 // *****************************************************************************
-// Copyright 2003-2006 by A J Marston <http://www.tonymarston.net>
-// Distributed under the GNU General Public Licence
+// Sample test removing copyright
 // *****************************************************************************
 
 // This is my universal error handler.
