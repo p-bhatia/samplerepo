@@ -29,7 +29,7 @@ if ($GLOBALS['dbms'] == 'mysql') {
     $GLOBALS['PGSQL_dbname'] = 'sample';
 
 } else {
-    $GLOBALS['dbhost'] = 'localhost';
+    $GLOBALS['dbhost'] = 'syncapse.com';
 } // if
 
 // NOTE: $dbprefix is for my web host (shared) where my databases are prefixed
@@ -37,9 +37,9 @@ if ($GLOBALS['dbms'] == 'mysql') {
 
 if (preg_match('/^(127.0.0.1|localhost|desktop|laptop)$/i', $_SERVER['SERVER_NAME'])) {
     // this is for my PC
-    $dbusername = 'sample';
+    $dbusername = 'p.bhatia@syncapse.com';
     $dbuserpass = 'sample';
-    $dbprefix   = null;
+    $dbprefix   = dbo;
     $http_server         = null;
     $https_server        = null;
     $https_server_suffix = null;
