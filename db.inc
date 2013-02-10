@@ -5,12 +5,12 @@
 // *****************************************************************************
 
 // This file contains database access details and the standard connection function
-$GLOBALS['dbms']   = 'mysql';      // database engine is MySQL
+$GLOBALS['dbms']   = 'ORACLE';      // database engine is Oracle
 //$GLOBALS['dbms']   = 'pgsql';      // database engine is PostgreSQL
-//$GLOBALS['dbms']   = 'oracle';     // database engine is Oracle
+//$GLOBALS['dbms']   = 'mysql';     // database engine is MySql
 //$GLOBALS['dbms']   = 'sqlsrv';     // database engine is SQL Server (Microsoft)
 
-if ($GLOBALS['dbms'] == 'oracle') {
+if ($GLOBALS['dbms'] == 'mysql') {
     $GLOBALS['dbhost'] = '//localhost/xe';
 
 } elseif ($GLOBALS['dbms'] == 'sqlsrv') {
