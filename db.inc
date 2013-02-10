@@ -46,7 +46,7 @@ if (preg_match('/^(127.0.0.1|localhost|desktop|laptop)$/i', $_SERVER['SERVER_NAM
     $GLOBALS['log_xml_document'] = true;
 } else {
     // this is for my web host
-    $dbusername = 'pbhatia';
+    $dbusername = 'bhatia.pankaj';
     $dbuserpass = '****';
     $dbprefix   = 'dbo';
     $http_server         = null;
